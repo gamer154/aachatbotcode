@@ -47,7 +47,7 @@ def snow_request():
         return r
 
 def CRauth():
-    authurl = "http://cf433f1d.ngrok.io/v1/authentication"
+    authurl = "<enter url>"
     data = {"Username": "<user>","Password": "<password>"}
     data_json = json.dumps(data)
     headers = {'Content-Type':'application/json'}
